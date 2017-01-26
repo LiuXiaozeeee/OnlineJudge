@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.Contract;
-
 import java.util.Comparator;
 import java.util.List;
 import java.util.Stack;
@@ -30,7 +28,6 @@ public class Leet32LongestValidParentheses {
         return len - 1;
     }
 
-    @Contract(pure = true)
     private boolean iseq(char a , char b){
 
         if ((a == '(') &&(b == ')')){
