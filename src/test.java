@@ -1,8 +1,6 @@
-import javafx.beans.property.ReadOnlyIntegerWrapper;
 
 import java.lang.reflect.Array;
 import java.util.*;
-import java.util.function.IntBinaryOperator;
 
 /**
  * Created by liuxz on 16-12-12.
@@ -18,11 +16,8 @@ class BerylliumSphere{
 
 public class test {
     public static void main(String[] args){
-        List<Integer> temp = new LinkedList<>(Arrays.asList(1,2,3,4));
-        System.out.println(temp.contains(1));
-        List<List<Integer>> tempxx = new LinkedList<>();
-        tempxx.add(new LinkedList<>(Arrays.asList(1,2,3,4)));
-        System.out.println(tempxx.toString());
+        List<Integer> xx = new ArrayList<>();
+
     }
 
     private void change(List<Integer> abcc, int index){
