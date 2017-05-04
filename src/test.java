@@ -16,7 +16,8 @@ class BerylliumSphere{
 
 public class test {
     public static void main(String[] args){
-        List<Integer> xx = new ArrayList<>();
+        String xx = "测试";
+        System.out.println(xx);
     }
 
     private void change(List<Integer> abcc, int index){
