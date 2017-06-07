@@ -1,4 +1,5 @@
 
+import java.io.*;
 import java.lang.reflect.Array;
 import java.util.*;
 
@@ -15,9 +16,14 @@ class BerylliumSphere{
 }
 
 public class test {
-    public static void main(String[] args){
-        String xx = "测试";
-        System.out.println(xx);
+    public static void main(String[] args) throws IOException {
+
+        List<Integer> a = new ArrayList<>();a.add(1);a.add(2);a.add(3);
+        List<Integer> b = new ArrayList<>();b.add(1);b.add(2);b.add(3);
+        Set<List<Integer>> c = new HashSet<>();
+        c.add(a);c.add(b);
+        List<List<Integer>> d = new ArrayList<>(c);
+        System.out.println(d);
     }
 
     private void change(List<Integer> abcc, int index){
