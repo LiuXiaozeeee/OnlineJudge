@@ -5,6 +5,7 @@ import java.util.*;
  * Created by liuxz on 17-3-14.
  */
 public class Leet140WordBreakII {
+//    not AC
     public List<String> wordBreak(String s, List<String> wordDict) {
         boolean[] vec = new boolean[s.length()+1];
         Map<Integer,List<String>> word = new HashMap<>(s.length());
