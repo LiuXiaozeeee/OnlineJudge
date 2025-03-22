@@ -1,4 +1,4 @@
-import jdk.nashorn.internal.runtime.regexp.joni.encoding.CharacterType;
+
 
 import java.util.LinkedList;
 import java.util.Objects;
